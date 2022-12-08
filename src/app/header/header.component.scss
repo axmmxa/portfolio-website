@@ -1,0 +1,29 @@
+.header{
+    height: 86px;
+    margin-top: 0;
+    display: flex;
+    color: white;
+    border-bottom: 0.5px solid white;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: white;
+        width: 49px;
+        height: 19px;
+        margin-right: 10px;
+        &:hover{
+            color:#FA2759;
+        }
+    }
+
+    
+}
