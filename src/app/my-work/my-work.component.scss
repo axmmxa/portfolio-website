@@ -1,0 +1,40 @@
+.my-work{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .headline{
+        color: white;
+        margin-top: 5vh;
+        font-size: 36px;
+    }
+
+    .technologie-section {
+        margin-top: 30px;
+        button{
+            width: 128px;
+            height: 70px;
+            border: 2px solid #FA2759;
+            color: white;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: black;
+            &:hover{
+                background-color: #FA2759;
+            }
+        }
+    }
+
+    .my-work-gallery{
+        display: flex;
+        align-items: center;
+        .one-work{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border: 1px solid black;
+            
+        }
+    }
+}
