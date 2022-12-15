@@ -10,10 +10,15 @@
     margin: auto;
 }
 
+.logo-header {
+    margin-left: 10vw;
+}
+
 .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 10vw;
     a{
         text-decoration: none;
         color: white;
