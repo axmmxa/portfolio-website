@@ -1,0 +1,22 @@
+.contact-me-container {
+    height: 80vh;
+    .contact-me{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #989898;;
+        h1{
+            color: #2EFCD8;
+            font-weight: 80px;
+        }
+
+        .form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+    }
+}

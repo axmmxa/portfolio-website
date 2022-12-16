@@ -1,0 +1,19 @@
+.footer {
+    width: 62vw;
+    height: 20vh;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        margin-left: 40px;
+    }
+
+    .social-media-logos{
+        margin-right: 40px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
