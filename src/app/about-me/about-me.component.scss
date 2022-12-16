@@ -1,0 +1,39 @@
+.about-me{
+    width: 80vw;
+    height: 85vh;
+    margin-top: 0;
+    margin: auto;
+    background-color:#1A1A1A;
+    
+
+    .up-container {
+            margin: auto;
+            width: 40vw;
+            height: 40vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom:  1px solid #2DFCD8;
+
+            img {
+                margin-left: 40px;
+                height: 20vh;
+                border-radius: 100%;
+            }
+
+            .about-me-info{
+                margin-right: 40px;
+                color: white;
+                text-align: center;
+            }
+    }
+
+    .down-container{
+        color: white;
+        display: flex;
+
+        .one-step{
+            display: flex;
+        }
+    }
+}
