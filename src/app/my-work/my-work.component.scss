@@ -29,12 +29,25 @@
     .my-work-gallery{
         display: flex;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 40vw;
+        height: 58vh;
+        margin-top: 20px;
         .one-work{
-            width: 200px;
+            width: 290px;
             height: 200px;
-            background-color: aqua;
             border: 1px solid black;
-            
+            margin-left: 8px;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 290px;
+
+                object-fit: cover;
+            }
         }
     }
 }
