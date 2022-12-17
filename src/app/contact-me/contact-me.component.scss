@@ -12,10 +12,48 @@
         }
 
         .form{
+            margin-top: 50px;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+
+            label{
+                color: white;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: left;
+                width: 640px;
+            }
+            
+            input{
+                width: 640px;
+                background-color: #1A1A1A;
+                border: none;
+                color: white;
+            }
+
+            textarea{
+                background-color: #1A1A1A;
+                border: none;
+                color: white;
+            }
+
+            .button-div{
+                width: 640px;
+                height: 60px;
+                display: flex;
+                justify-content: end;
+                button {
+                    margin-top: 10px;
+                    height: 40px;
+                    width: 100px;
+                    background-color: black;
+                    color:#2EFCD8;
+                    border: 1px solid #2EFCD8;
+                }
+            }
+
             
         }
     }
