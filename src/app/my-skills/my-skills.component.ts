@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import * as AOS from 'aos';
+
+
 @Component({
   selector: 'app-my-skills',
   templateUrl: './my-skills.component.html',
@@ -7,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class MySkillsComponent {
 
+  ngOninit() {
+    AOS.init();
+  }
 }
