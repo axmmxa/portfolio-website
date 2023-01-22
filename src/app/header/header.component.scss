@@ -3,7 +3,6 @@
     margin-top: 0;
     display: flex;
     color: white;
-    border-bottom: 0.5px solid white;
     align-items: center;
     justify-content: space-between;
     width: 80vw;
@@ -24,7 +23,9 @@
         color: white;
         width: 49px;
         height: 19px;
-        margin-right: 10px;
+        margin-right: 23px;
+        margin-left: 23px;
+        font-size: 23px;
         &:hover{
             color:#FA2759;
         }
