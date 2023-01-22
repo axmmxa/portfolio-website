@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-contact-me',
@@ -6,5 +6,50 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-me.component.scss']
 })
 export class ContactMeComponent {
+  @ViewChild('myForm')myForm: ElementRef | undefined;
+  @ViewChild('nameField')nameField: ElementRef | undefined;
+  @ViewChild('messageField')messageField: ElementRef | undefined;
+  @ViewChild('emailField')emailField: ElementRef | undefined;
+  @ViewChild('sendButton')sendButton: ElementRef | undefined;
+
+  async sendMail() {
+    //https://alexander-much.developerakademie.net/send_mail/send_mail.php
+    console.log('Sending mail', this.myForm);
+
+
+    let nameField = this.emailField.nativeElement;
+    let messageField = this.messageField.nativeElement;
+    let emailField = this.emailField.nativeElement;
+    let sendButton = this.sendButton.nativeElement;
+
+
+    nameField.disabled = true;
+    messageField.disabled = true;
+    emailField.disabled = true;
+    sendButton.disabled = true;
+
+    // Animation anzeigen 
+
+    let fd = new FormData();
+    fd.append('name', nameField.value)
+    fd.append('message', messageField.value)
+
+    //senden 
+    await fetch('https://alexander-much.developerakademie.net/send_mail/send_mail.php',
+    {
+      method: 'post',
+      body: fd
+    }
+    );
+
+    //text anzeigen: Nachricht gesendet.
+
+
+    nameField.disabled = false;
+    messageField.disabled = false;
+    emailField.disabled = false;
+    sendButton.disabled = false;
+    
+  }
 
 }

@@ -4,20 +4,19 @@
         <h1>Contact me</h1>
         Get in touch via the form below, or by emailing much.lexander@googlemail.com
 
-        <form class="form">
+        <form class="form" (submit)="sendMail()" ngNativeValidate #myForm>
 
             <label for="">Name</label>
-        
-            <input type="text" placeholder="Enter your name">
+            <input required name="namer" type="text" placeholder="Enter your name" #nameField >
 
             <label for="">Email</label>
-            <input type="text" placeholder="Enter your Email adress">
+            <input required type="text" placeholder="Enter your Email adress" #emailField>
 
             <label for="">Message</label>
-            <textarea name="" id="" cols="78" rows="13" placeholder="Enter your message"></textarea>
+            <textarea required name="message" id="" cols="78" rows="13" placeholder="Enter your message" #messageField></textarea>
 
             <div class="button-div">
-                <button>send</button>
+                <button #sendButton>send</button>
             </div>
         </form>
     </div>
