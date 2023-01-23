@@ -1,13 +1,14 @@
 <div class="contact-me-container">
 
     <div class="contact-me">
-        <h1>Contact me</h1>
-        Get in touch via the form below, or by emailing much.lexander@googlemail.com
+        <h1>Contact me.</h1>
+        <p>Get in touch via the form below, or by emailing much.lexander@googlemail.com</p>
+        
 
         <form class="form" (submit)="sendMail()" ngNativeValidate #myForm>
 
             <label for="">Name</label>
-            <input required name="namer" type="text" placeholder="Enter your name" #nameField >
+            <input required name="namer" type="text" placeholder="Enter your name" #nameField  >
 
             <label for="">Email</label>
             <input required type="text" placeholder="Enter your Email adress" #emailField>
@@ -16,7 +17,7 @@
             <textarea required name="message" id="" cols="78" rows="13" placeholder="Enter your message" #messageField></textarea>
 
             <div class="button-div">
-                <button #sendButton>send</button>
+                <button #sendButton>Send</button>
             </div>
         </form>
     </div>

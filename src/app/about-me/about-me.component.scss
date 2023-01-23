@@ -1,6 +1,6 @@
 .about-me{
-    width: 80vw;
-    height: 85vh;
+    width: 100vw;
+    height: 80vh;
     margin-top: 0;
     margin: auto;
     background-color:#1A1A1A;
@@ -8,8 +8,8 @@
 
     .up-container {
             margin: auto;
-            width: 40vw;
-            height: 40vh;
+            width: 70vw;
+            height: 30vh;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -25,13 +25,17 @@
                 margin-right: 40px;
                 color: white;
                 text-align: center;
+
+                h1{
+                    font-size: 40px;
+                }
             }
     }
 
     .down-container{
         color: white;
         display: flex;
-        width: 40vw;
+        width: 70vw;
         margin: auto;
 
         .one-step{
@@ -46,8 +50,8 @@
             text-align: center;
             .img-div{
                 background-color: #2DFCD8;
-                height: 60px;
-                width: 60px;
+                height: 80px;
+                width: 80px;
                 border-radius: 100%;
                 display: flex;
                 align-items: center;

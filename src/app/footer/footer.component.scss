@@ -1,13 +1,15 @@
 .footer {
     width: 100vw;
-    height: 20vh;
+    height: 16vh;
     margin: auto;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     p{
+        font-size: 20px;
         margin-left: 40px;
+        color: #8491A0;
     }
 
     .social-media-logos{
