@@ -4,6 +4,9 @@
     margin-top: 0;
     margin: auto;
     background-color:#1A1A1A;
+    @media only screen and (min-width: 1440px) {
+        width: 1440px;
+      }
     
 
     .up-container {

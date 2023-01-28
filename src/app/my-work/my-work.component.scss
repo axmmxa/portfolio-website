@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    @media only screen and (min-width: 1440px) {
+        width: 1440px;
+      }
     .headline{
         color: white;
         margin-top: 5vh;
@@ -35,6 +37,9 @@
         width: 100vw;
         height: 58vh;
         margin-top: 20px;
+        @media only screen and (min-width: 1440px) {
+            width: 1440px;
+          }
         .one-work{
             width: 40 vw;
             height: 30vh;
@@ -46,8 +51,8 @@
             justify-content: center;
             img{
                 width: 32vw;
-
                 object-fit: cover;
+                
             }
         }
     }

@@ -6,6 +6,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media only screen and (min-width: 1440px) {
+        width: 1440px;
+      }
 
     .headline{
         color: white;

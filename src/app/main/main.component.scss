@@ -3,6 +3,9 @@
     height: 53vh;
     margin: auto;
     color: white;
+    @media only screen and (min-width: 1440px) {
+        width: 1440px;
+      }
 }
 
 .main-info-container {
