@@ -8,12 +8,16 @@
     flex-direction: column;
     @media only screen and (min-width: 1440px) {
         width: 1440px;
+        height: 900px;
       }
 
     .headline{
         color: white;
         margin-top: 5vh;
         font-size: 36px;
+        @media only screen and (min-width: 1440px) {
+            font-size: 60px;
+          }
     }
 
     .skill-box{
@@ -22,7 +26,9 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        
+        @media only screen and (min-width: 1440px) {
+            
+        }
 
        
 
