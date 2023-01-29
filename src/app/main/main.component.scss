@@ -7,6 +7,9 @@
         width: 1440px;
         height: 680px;
       }
+      @media only screen and (max-width: 1024px) {
+        
+      } 
 }
 
 .main-info-container {
@@ -34,6 +37,9 @@
         background-color: black;
         border: 2px solid  #2DFCD8;
         margin-top: 55px;
+        @media only screen and (min-width: 1440px) {
+            width: 400px;
+        }
     }
 
     @media only screen and (min-width: 1440px) {
@@ -44,15 +50,22 @@
 .main-info-right{
     margin-right: 10vw;
     img {
-        height: 28vh;
         border-radius: 100%;
         width: 350px;
         height: 350px;
+        @media only screen and (min-width: 1440px) {
+            margin-right: 0;
+          }
+        @media only screen and (max-width: 1440px) {
+            width: 300px;
+            height: 300px;
+          }
+        @media only screen and (max-width: 1024px) {
+            height: 250px;
+            width: 250px;
+          }
     }
-
-    @media only screen and (min-width: 1440px) {
-        margin-right: 0;
-      }
+   
 }
 
 .down-btn-section {
@@ -61,9 +74,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @media only screen and (min-width: 1440px) {
-        
-      }
+    
 }
 
 .down-btn{
@@ -74,4 +85,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }

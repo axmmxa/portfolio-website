@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  showMobileMenu()  {
+    console.log("test")
+  }
 }

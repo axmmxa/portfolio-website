@@ -10,6 +10,9 @@
     @media only screen and (min-width: 1440px) {
         width: 1440px;
       }
+    @media only screen and (max-width: 768px) {
+        display: none;
+      }  
 }
 
 .logo-header {
@@ -27,6 +30,7 @@
     @media only screen and (min-width: 1440px) {
         margin-right: 0;
       }
+   
     a{
         text-decoration: none;
         color: white;
@@ -38,8 +42,41 @@
         &:hover{
             color:#FA2759;
         }
+        
 
     }
-
-    
 }
+
+
+
+.header-mobile{
+  
+  @media only screen and (min-width: 768px) {
+      display: none;
+    }
+
+    .header-mobile-menu{
+      height: 86px;
+      margin-top: 0;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: space-between;
+      width: 80vw;
+      margin: auto;
+    }
+
+    .header-mobile-menu-list{
+      width: 80vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 0;
+      a{
+        color: white;
+      }
+    }
+}
+
+
+
