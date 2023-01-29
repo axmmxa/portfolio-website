@@ -6,6 +6,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media only screen and (min-width: 1440px) {
+        width: 1440px;
+      }
     p{
         font-size: 20px;
         margin-left: 40px;
