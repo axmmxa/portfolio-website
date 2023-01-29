@@ -4,9 +4,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     @media only screen and (min-width: 1440px) {
-        width: 1440px;
-      }
+        /* width 1440px*/
+       }
+   
+   
     .headline{
         color: white;
         margin-top: 5vh;
@@ -38,10 +41,14 @@
         height: 58vh;
         margin-top: 20px;
         @media only screen and (min-width: 1440px) {
-            width: 1440px;
-          }
+            height: 2000px;
+           }
+        
+        
+       
+        
         .one-work{
-            width: 40 vw;
+            width: 40vw;
             height: 30vh;
             border: 1px solid black;
             margin-left: 8px;
@@ -49,11 +56,19 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            @media only screen and (min-width: 1440px) {
+                width: 500px;
+               }
+            
             img{
                 width: 32vw;
                 object-fit: cover;
+                @media only screen and (min-width: 1440px) {
+                    width: 500px;
+                   }
                 
             }
+            
         }
     }
 }
