@@ -7,15 +7,23 @@
         width: 1440px;
         height: 680px;
       }
-      @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1024px) {
         
-      } 
+    } 
+    @media only screen and (max-width: 768px) {
+        width: 100vw;
+        height: 60vh;
+     }  
+    
 }
 
 .main-info-container {
     margin-top: 5vh;
     display: flex;
     align-items: center;
+    @media only screen and (max-width: 768px) {
+       flex-direction: column-reverse; 
+    }  
 }
 
 .main-info-left {
@@ -23,6 +31,9 @@
     font-size: 55px;
     margin-top: 0vh;
     margin-left: 10vw;
+    @media only screen and (max-width: 768px) {
+        margin: 0;
+     }  
     .name{
         color: #FA2759;
     }
@@ -49,6 +60,9 @@
 
 .main-info-right{
     margin-right: 10vw;
+    @media only screen and (max-width: 768px) {
+        /*stoped here*/    
+     }  
     img {
         border-radius: 100%;
         width: 350px;
@@ -74,7 +88,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    @media only screen and (max-width: 768px) {
+       display: none;
+     }  
 }
 
 .down-btn{
