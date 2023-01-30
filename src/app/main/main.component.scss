@@ -12,7 +12,8 @@
     } 
     @media only screen and (max-width: 768px) {
         width: 100vw;
-        height: 60vh;
+        height: 620px;
+        justify-content: center;
      }  
     
 }
@@ -22,7 +23,9 @@
     display: flex;
     align-items: center;
     @media only screen and (max-width: 768px) {
-       flex-direction: column-reverse; 
+       flex-direction: column-reverse;
+       align-items: center;
+       margin-left: 12;
     }  
 }
 
@@ -33,6 +36,7 @@
     margin-left: 10vw;
     @media only screen and (max-width: 768px) {
         margin: 0;
+        font-size: 6vw;
      }  
     .name{
         color: #FA2759;
@@ -51,11 +55,15 @@
         @media only screen and (min-width: 1440px) {
             width: 400px;
         }
+        @media only screen and (max-width: 768px) {
+            width: 54vw;
+         }   
     }
 
     @media only screen and (min-width: 1440px) {
         margin-left: 0;
       }
+       
 }
 
 .main-info-right{

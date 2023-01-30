@@ -11,7 +11,9 @@
     @media only screen and (max-width: 1024px) {
         height: 900px;
       }  
-   
+      @media only screen and (max-width: 768px) {
+        height: 800px;    
+     }  
     .headline{
         color: white;
         margin-top: 5vh;
@@ -47,7 +49,10 @@
            }
         @media only screen and (max-width: 1440px) {
             height: 600px;
-          }   
+          }
+          @media only screen and (max-width: 768px) {
+            height: 500px;
+         }       
         
         
        
@@ -75,6 +80,9 @@
                 @media only screen and (min-width: 1440px) {
                     width: 500px;
                    }
+                @media only screen and (max-width: 768px) {
+                    width: 38vw;    
+                 }     
                 
             }
             
