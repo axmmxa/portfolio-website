@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
 
   showMobileMenu()  {
+    let menuButton = document.querySelector('#menu-btn')
+    menuButton.classList.add('d-none')
     console.log("test")
   }
 }
