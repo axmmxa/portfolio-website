@@ -5,26 +5,26 @@
     </div>
 
     <div class="technologie-section">
-        <button>All</button>
-        <button>Angular</button>
-        <button>Javascript</button>
+        <button (click)="showAll()">All</button>
+        <button (click)="showAngular()">Angular</button>
+        <button (click)="showJavascript()">Javascript</button>
     </div>
 
     <div class="my-work-gallery">
 
-        <div class="one-work">
+        <div class="one-work" [ngClass]="{'display-none': jsScript}">
             <img src="assets/img/pollo-loco-macbook.png">
         </div>
 
-        <div class="one-work">
-            <img src="assets/img/imac-join.png">
+        <div class="one-work" [ngClass]="{'display-none': jsScript}">
+            <img src="assets/img/imac-join.png" >
         </div>
 
-        <div class="one-work">
-            <img src="assets/img/ring-of-fire.jpg">
+        <div class="one-work" [ngClass]="{'display-none': angular}">
+            <img src="assets/img/ring-of-fire.jpg" >
         </div>
 
-        <div class="one-work">
+        <div class="one-work" [ngClass]="{'display-none': angular}">
             <img src="assets/img/mb-ipad.jpg" >
         </div>
     </div>

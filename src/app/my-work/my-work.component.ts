@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class MyWorkComponent {
 
+  jsScript = false
+  angular = false
+
+  showAll(){
+    console.log('test')
+    this.jsScript = false
+    this.angular = false
+  }
+
+  showAngular() {
+    console.log('test')
+    this.jsScript = true
+    this.angular = false
+  }
+
+  showJavascript() {
+    console.log('test')
+    this.angular = true
+    this.jsScript = false
+  }
 }
