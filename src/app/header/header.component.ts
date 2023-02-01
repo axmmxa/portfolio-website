@@ -11,6 +11,11 @@ export class HeaderComponent {
 
   showMobileMenu()  {
     console.log('test')
-    this.attachClass = true;
+    if(this.attachClass == false){
+      this.attachClass = true
+    }else{
+      this.attachClass = false
+    }
+    
   }
 }
