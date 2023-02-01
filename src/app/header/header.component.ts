@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  
+  attachClass = false;
 
   showMobileMenu()  {
-    let menuButton = document.querySelector('#menu-btn')
-    menuButton.classList.add('d-none')
-    console.log("test")
+    console.log('test')
+    this.attachClass = true;
   }
 }
