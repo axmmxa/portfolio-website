@@ -22,7 +22,11 @@
      
      @media only screen and (max-width: 763px) {
         height: 1100px;    
-     }   
+     }
+     
+     @media only screen and (max-width: 565px) {
+        height: 1300px;
+     } 
     .headline{
         color: white;
         margin-top: 5vh;
@@ -61,7 +65,11 @@
           }
           @media only screen and (max-width: 768px) {
             height: 500px;
-         }       
+         }
+        
+         @media only screen and (max-width: 565px) {
+            height: 1000px !important;
+         } 
         
         
        
@@ -81,7 +89,10 @@
             @media only screen and (max-width: 1024px) {
                 width: 300px;
                 height: 200px;
-              }   
+              }
+            @media only screen and (max-width: 565px) {
+                width: 80vw;
+             }      
             
             img{
                 width: 32vw;
@@ -93,6 +104,9 @@
                     width: 38vw;    
                  }     
                 
+                @media only screen and (max-width: 565px) {
+                    width: 60vw;
+                 } 
             }
             
         }
