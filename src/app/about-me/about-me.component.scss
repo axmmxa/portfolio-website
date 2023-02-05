@@ -12,6 +12,10 @@
         height: 800px;
       }
     
+      @media only screen and (min-width: 1440px) {
+        margin: 0;
+      }  
+    
 
     .up-container {
             margin: auto;
@@ -48,8 +52,7 @@
         width: 70vw;
         margin: auto;
         @media only screen and (max-width: 768px) {
-                    width: 200px;
-                    background-color: red;
+                    width: 90vw;
         } 
 
         .one-step{
@@ -64,8 +67,7 @@
             text-align: center;
             @media only screen and (max-width: 768px) {
                 width: 200px;
-                background-color: red;
-    }           margin-left: 0; 
+    }           margin-left: 10px; 
                 margin-right: 0;  
             .img-div{
                 background-color: #2DFCD8;
