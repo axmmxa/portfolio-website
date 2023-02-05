@@ -18,7 +18,11 @@
       }  
     @media only screen and (max-width: 768px) {
         height: 800px;    
-     }  
+     }
+     
+     @media only screen and (max-width: 763px) {
+        height: 1100px;    
+     }   
     .headline{
         color: white;
         margin-top: 5vh;
