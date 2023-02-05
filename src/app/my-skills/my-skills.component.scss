@@ -38,9 +38,9 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        @media only screen and (min-width: 1440px) {
-            
-        }
+        @media only screen and (max-width: 768px) {
+            width: 100vw;
+          }  
 
        
 
@@ -50,6 +50,9 @@
             justify-content: center;
             flex-direction: column;
             height: 200px;
+            @media only screen and (max-width: 768px) {
+                background-color: red !important;
+             }  
 
         .skill-logo{
                 width: 60px;
@@ -66,6 +69,9 @@
                     height: 20px;
                     width: 20px;
                 }
+                @media only screen and (max-width: 768px) {
+                    
+                  } 
             }
     
         .skill{
