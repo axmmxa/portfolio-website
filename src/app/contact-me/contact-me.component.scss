@@ -5,14 +5,24 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        color: #989898;;
+        color: #989898;
+        @media only screen and (max-width: 768px) {
+            justify-content: center;
+        } 
         h1{
             font-size: 70px;
             color: #2EFCD8;
             font-weight: 80px;
+            font-size: 20px;
+            @media only screen and (max-width: 768px) {
+                font-size: 28px;
+            } 
         }
         p{
             font-size: 20px;
+            @media only screen and (max-width: 768px) {
+                font-size: 13px;
+            } 
         }
 
         .form{
@@ -29,7 +39,13 @@
                 text-align: left;
                 width: 640px;
                 font-size: 20px;
+                @media only screen and (max-width: 768px) {
+                    width: 79vw;
+                    
+                } 
             }
+
+
             
             input{
                 width: 640px;
@@ -40,8 +56,13 @@
                 font-size: 20px;
                 display: flex;
                 padding: 12px;
+                @media only screen and (max-width: 768px) {
+                    width: 79vw; 
+                
+                } 
             }
 
+        
             textarea{
                 width: 640px;
                 height: 200px;
@@ -50,6 +71,10 @@
                 color: white;
                 font-size: 23px;
                 padding: 12px;
+                @media only screen and (max-width: 768px) {
+                    width: 79vw;
+                    height: 165px;
+                } 
             }
 
             .button-div{
@@ -57,6 +82,10 @@
                 height: 60px;
                 display: flex;
                 justify-content: end;
+                @media only screen and (max-width: 768px) {
+                    width: 200px;
+                    justify-content: center;
+                } 
                 button {
                     margin-top: 15px;
                     height: 55px;

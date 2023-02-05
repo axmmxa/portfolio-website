@@ -47,6 +47,10 @@
         display: flex;
         width: 70vw;
         margin: auto;
+        @media only screen and (max-width: 768px) {
+                    width: 200px;
+                    background-color: red;
+        } 
 
         .one-step{
             display: flex;
@@ -58,6 +62,11 @@
             height: 300px;
             width: 300px;
             text-align: center;
+            @media only screen and (max-width: 768px) {
+                width: 200px;
+                background-color: red;
+    }           margin-left: 0; 
+                margin-right: 0;  
             .img-div{
                 background-color: #2DFCD8;
                 height: 80px;
