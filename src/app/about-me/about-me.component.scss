@@ -5,7 +5,7 @@
     margin: auto;
     background-color:#1A1A1A;
     @media only screen and (min-width: 1440px) {
-        width: 1440px;
+        width: 1440px !important;
         height: 700px;
     }
     @media only screen and (max-width: 1439px) {
@@ -94,9 +94,16 @@
                 margin-right: 0; 
              }
             
-             @media only screen and (max-width: 565px) {
+            @media only screen and (max-width: 565px) {
                 width: 350px;
-            }   
+            }
+            @media only screen and (max-width: 456px) {
+                width: 300px;
+            }
+
+            @media only screen and (max-width: 310px) {
+                width: 260px;
+            } 
             .img-div{
                 background-color: #2DFCD8;
                 height: 80px;

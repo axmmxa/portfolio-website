@@ -80,7 +80,21 @@
          @media only screen and (max-width: 565px) {
             padding-left: 15vw;
             padding-right: 15vw;
-        }    
+        }
+
+        @media only screen and (max-width: 396px) {
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+
+        @media only screen and (max-width: 350px) {
+            padding-left: 11vw;
+            padding-right: 11vw;
+        }
+        @media only screen and (max-width: 310px) {
+            padding-left: 9vw;
+            padding-right: 9vw;
+        } 
     }
 
     
