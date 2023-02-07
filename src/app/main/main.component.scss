@@ -18,6 +18,10 @@
         width: 100vw;
         height: 620px;
         justify-content: center;
+     } 
+
+    @media only screen and (max-width: 565px) {
+        margin-top: 100px;
      }  
     
 }
@@ -47,6 +51,7 @@
     @media only screen and (max-width: 565px) {
         height: 250px ;
         width: 100w ; 
+        margin-top: 60px;
     }
     
 
@@ -84,9 +89,7 @@
 
 .main-info-right{
     margin-right: 10vw;
-    @media only screen and (max-width: 768px) {
-        /*stoped here*/    
-     }  
+     
     img {
         border-radius: 100%;
         width: 350px;
@@ -102,6 +105,10 @@
             height: 250px;
             width: 250px;
           }
+        @media only screen and (max-width: 565px) {
+            margin-right: 0;
+            margin-left: 10vw;
+        }  
     }
    
 }
