@@ -17,7 +17,7 @@
       }
      
     @media only screen and (max-width: 556px) {
-        height: 1520px;
+        height: 1690px;
     }   
     
 
@@ -33,16 +33,28 @@
                 width: 1440px;
               }
 
+            @media only screen and (max-width: 556px) {
+                height: 500px;
+                justify-content: center;
+                flex-direction: column;
+            }  
+
             img {
                 margin-left: 40px;
                 height: 20vh;
                 border-radius: 100%;
+                @media only screen and (max-width: 556px) {
+                   margin-left: 0;
+                } 
             }
 
             .about-me-info{
                 margin-right: 40px;
                 color: white;
                 text-align: center;
+                @media only screen and (max-width: 556px) {
+                    margin-right: 0;
+                }  
 
                 h1{
                     font-size: 40px;
