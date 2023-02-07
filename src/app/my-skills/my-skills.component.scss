@@ -27,7 +27,7 @@
         height: 700px !important;
      }
     @media only screen and (max-width: 456px) {
-       
+       height: 500px !important;
      }   
 
     .headline{
@@ -80,7 +80,9 @@
                     font-size: 12px;
                 }
                 @media only screen and (max-width: 456px) {
-       
+                    width: 120px;
+                    height: 60px;
+                    font-size: 10px;
                 }
             }
 
@@ -101,7 +103,9 @@
                     margin-bottom: -20px;
                 }
                 @media only screen and (max-width: 456px) {
-       
+                    height: 20px;
+                    width: 20px;
+                    margin-bottom: -10px;
                 }
                 img{
                     height: 20px;
