@@ -61,7 +61,7 @@
                 height: 150px;
              }
             @media only screen and (max-width: 565px) {
-                
+                height: 120px;
             }
              
             .skill{
@@ -83,6 +83,10 @@
                     width: 120px;
                     height: 60px;
                     font-size: 10px;
+                }
+                @media only screen and (max-width: 396px) {
+                    width: 100px;
+                    height: 50px;
                 }
             }
 
@@ -107,9 +111,15 @@
                     width: 20px;
                     margin-bottom: -10px;
                 }
+                @media only screen and (max-width: 396px) {
+                    
+                }
                 img{
                     height: 20px;
                     width: 20px;
+                }
+                @media only screen and (max-width: 396px) {
+                    
                 }
                  
             }
