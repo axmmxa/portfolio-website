@@ -6,24 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-work.component.scss']
 })
 export class MyWorkComponent {
-
+ 
   jsScript = false
   angular = false
 
+  allButton = false
+  angularButton = false
+  jsButton = false
+
   showAll(){
-    console.log('test')
+    this.allButton = true
     this.jsScript = false
     this.angular = false
   }
 
   showAngular() {
-    console.log('test')
+    this.angularButton = true
     this.jsScript = true
     this.angular = false
   }
 
   showJavascript() {
-    console.log('test')
+    this.jsButton = true
     this.angular = true
     this.jsScript = false
   }
