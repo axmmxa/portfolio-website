@@ -59,11 +59,12 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 80vw;
         height: 1500px;
         margin-top: 20px;
+        
         @media only screen and (min-width: 1440px) {
-            height: 2000px;
+            height: 800px; 
            }
         @media only screen and (max-width: 1440px) {
             height: 600px;
@@ -80,15 +81,17 @@
        
         
         .one-work{
-            width: 40vw;
-            height: 30vh;
+            width: 35%;
+            height: 30%;
             border: 1px solid black;
             margin-left: 8px;
             margin-right: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            @media only screen and (min-width: 1440px) {
+            background-color: red;
+            
+            /*@media only screen and (min-width: 1440px) {
                 width: 500px;
                }
             @media only screen and (max-width: 1024px) {
@@ -97,10 +100,9 @@
               }
             @media only screen and (max-width: 565px) {
                 width: 80vw;
-             }      
+             }*/      
             
             img{
-                width: 32vw;
                 object-fit: cover;
                 @media only screen and (min-width: 1440px) {
                     width: 500px;
