@@ -16,18 +16,25 @@ export class MyWorkComponent {
 
   showAll(){
     this.allButton = true
+    this.angularButton = false
+    this.jsButton = false
     this.jsScript = false
     this.angular = false
   }
 
   showAngular() {
     this.angularButton = true
+    this.allButton = false
+    this.jsButton = false
     this.jsScript = true
     this.angular = false
   }
 
   showJavascript() {
     this.jsButton = true
+    this.allButton = false
+    this.angularButton = false
+    this.angular = false
     this.angular = true
     this.jsScript = false
   }
