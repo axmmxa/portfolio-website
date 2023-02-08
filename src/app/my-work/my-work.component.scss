@@ -23,12 +23,22 @@
      }
      
      @media only screen and (max-width: 763px) {
-        height: 1100px;    
+        height: 800px;    
      }
      
      @media only screen and (max-width: 565px) {
-        height: 1300px;
+        height: 1700px;
      } 
+
+     @media only screen and (max-width: 450px) {
+        height: 1400px;
+     }
+
+     @media only screen and (max-width: 380px) {
+        height: 1200px;
+
+     } 
+    
     .headline{
         color: white;
         margin-top: 5vh;
@@ -74,46 +84,46 @@
          }
         
          @media only screen and (max-width: 565px) {
-            height: 1000px !important;
+            height: 800px !important;
          } 
+
         
         
        
         
         .one-work{
             width: 35%;
-            height: 30%;
+            height: 45%;
             border: 1px solid black;
             margin-left: 8px;
             margin-right: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: red;
-            
-            /*@media only screen and (min-width: 1440px) {
-                width: 500px;
-               }
-            @media only screen and (max-width: 1024px) {
-                width: 300px;
-                height: 200px;
-              }
             @media only screen and (max-width: 565px) {
                 width: 80vw;
-             }*/      
+             }     
             
+             @media only screen and (max-width: 450px) {
+                width: 80vw;
+                height: 35%;
+             }
+
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 30%;
+             }
+
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 27%;
+             }
+
+             
+
             img{
                 object-fit: cover;
-                @media only screen and (min-width: 1440px) {
-                    width: 500px;
-                   }
-                @media only screen and (max-width: 768px) {
-                    width: 38vw;    
-                 }     
-                
-                @media only screen and (max-width: 565px) {
-                    width: 60vw;
-                 } 
+                    width: 95%;  
             }
             
         }
