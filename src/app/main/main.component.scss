@@ -9,10 +9,10 @@
       }
     @media only screen and (max-width: 1439px) {
         width: 80vw;
-        height: 750px;
+        height: calc(100vh - 5vh - 86px)
       }
     @media only screen and (max-width: 1024px) {
-        height: 780px;
+        height: calc(100vh - 5vh - 86px)
     } 
     @media only screen and (max-width: 768px) {
         width: 100vw;
