@@ -137,3 +137,17 @@
 .background-red {
     background-color: #FA2759 !important;
 }
+
+.hover-img{
+    width: 35%;
+    height: 45%;
+    border: 1px solid black;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    z-index: -2;
+}

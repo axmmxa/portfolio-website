@@ -17,8 +17,14 @@
             <textarea required name="message" id="" cols="78" rows="13" placeholder="Enter your message" #messageField></textarea>
 
             <div class="button-div">
+                
                 <button #sendButton>Send</button>
+                <div class="mail-send-sucess" [ngClass]="{'display-none': display}">
+                    Your mail was send !
+                </div>
             </div>
+
+            
         </form>
     </div>
 </div>

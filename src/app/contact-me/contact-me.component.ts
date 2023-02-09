@@ -12,10 +12,16 @@ export class ContactMeComponent {
   @ViewChild('emailField')emailField: ElementRef | undefined;
   @ViewChild('sendButton')sendButton: ElementRef | undefined;
 
+  display = true
+
   async sendMail() {
     //https://alexander-much.developerakademie.net/send_mail/send_mail.php
-    console.log('Sending mail', this.myForm);
+    
+    this.display = false
 
+    setTimeout(() => {
+      this.display = true
+    }, 5000);
 
     let nameField = this.emailField.nativeElement;
     let messageField = this.messageField.nativeElement;
@@ -49,6 +55,8 @@ export class ContactMeComponent {
     messageField.disabled = false;
     emailField.disabled = false;
     sendButton.disabled = false;
+
+    
     
   }
 
