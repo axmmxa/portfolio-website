@@ -19,11 +19,12 @@ export class ContactMeComponent {
     
     this.display = false
 
+    
     setTimeout(() => {
       this.display = true
     }, 5000);
 
-    let nameField = this.emailField.nativeElement;
+    let nameField = this.nameField.nativeElement;
     let messageField = this.messageField.nativeElement;
     let emailField = this.emailField.nativeElement;
     let sendButton = this.sendButton.nativeElement;
@@ -56,7 +57,12 @@ export class ContactMeComponent {
     emailField.disabled = false;
     sendButton.disabled = false;
 
-    
+    // clear inputs
+    console.log("namfield", nameField.value)
+
+    nameField.value =""
+    messageField.value =""
+    emailField.value =""
     
   }
 
