@@ -14,4 +14,8 @@ export class MainComponent {
   toContactMe() {
     document.getElementById("contact-me").scrollIntoView({behavior: "smooth"});
   }
+
+  toMySkills() {
+    document.getElementById("my-skills").scrollIntoView({behavior: "smooth"});
+  }
 }
