@@ -70,6 +70,11 @@
         margin-top: 55px;
         font-size: 25px;
         padding: 20px;
+        &:hover{
+            cursor: pointer;
+            background-color: #2DFCD8;
+            color: white;
+        }
         @media only screen and (min-width: 1440px) {
             width: 400px;
             margin-left: 0;
@@ -146,5 +151,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    &:hover{
+        cursor: pointer;
+    }
     
 }
