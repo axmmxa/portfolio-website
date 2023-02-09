@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  toMyWork() {
+    document.getElementById("my-work").scrollIntoView({behavior: "smooth"});
+  }
+
+  toContactMe() {
+    document.getElementById("contact-me").scrollIntoView({behavior: "smooth"});
+  }
 }

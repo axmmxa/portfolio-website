@@ -5,9 +5,10 @@
     </div>
 
     <div class="menu">
-        <a [routerLink] = "['/']"  fragment="main"> Home </a>
-        <a [routerLink] = "['/']"  fragment="about-me"> About </a>
-        <a [routerLink] = "['/']"  fragment="my-work"> Portfolio </a>
+        <a (click)="toHome()"> Home </a>
+        <a  (click)="toAbout()"> About </a>
+        <a (click)="toMyWork()"> Portfolio </a>
+
     </div>
 </header>
 

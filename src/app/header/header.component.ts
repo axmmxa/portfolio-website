@@ -18,4 +18,17 @@ export class HeaderComponent {
     }
     
   }
+
+  toHome() {
+    console.log("scroll test")
+    document.getElementById("main").scrollIntoView({behavior: "smooth"});
+  }
+
+  toAbout() {
+    document.getElementById("about-me").scrollIntoView({behavior: "smooth"});
+  }
+
+  toMyWork() {
+    document.getElementById("my-work").scrollIntoView({behavior: "smooth"});
+  }
 }
