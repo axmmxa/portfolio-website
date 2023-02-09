@@ -139,7 +139,8 @@
     background-color: #FA2759 !important;
 }
 
-.hover-img{
+.hover-div{
+    background-color: blue;
     width: 35%;
     height: 45%;
     border: 1px solid black;
@@ -149,6 +150,10 @@
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: red;
-    z-index: -2;
 }
+
+.pollo-loco:hover + .hover-div{
+    display: block !important;
+    color: red;
+}
+
