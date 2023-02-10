@@ -137,17 +137,21 @@
             }
 
             .hover-div-pollo-loco{
-                height: 79%;
-                width: 100%;
+                
                 background-color:rgba(255,255,255,.8);
                 z-index: 1;
                 position: absolute;
-                margin: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+                width: 95%;
+                height: 90%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                //display: none;
+                display: none;
                 h2{
                     color: #FA2759;
                 }
@@ -214,12 +218,17 @@
                 background-color:rgba(255,255,255,.8);
                 z-index: 1;
                 position: absolute;
-                margin: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+                width: 95%;
+                height: 90%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                //display: none;
+                display: none;
                 h2{
                     color: #FA2759;
                 }
@@ -287,12 +296,17 @@
                 background-color:rgba(255,255,255,.8);
                 z-index: 1;
                 position: absolute;
-                margin: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+                width: 95%;
+                height: 90%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                //display: none;
+                display: none;
                 h2{
                     color: #FA2759;
                 }
@@ -355,18 +369,22 @@
             }
 
             .hover-div-portfolio{
-                height: 93%;
-                width: 90%;
-                margin-left: -30%;
+                height: 99%;
+                width: 93%;
                 background-color:rgba(255,255,255,.8);
                 z-index: 1;
                 position: absolute;
-                margin: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+                width: 95%;
+                height: 90%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                //display: none;
+                display: none;
                 h2{
                     color: #FA2759;
                 }
