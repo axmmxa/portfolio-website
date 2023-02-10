@@ -92,7 +92,7 @@
         
        
         
-        .one-work{
+        .one-work-pollo-loco{
             width: 35%;
             height: 45%;
             border: 1px solid black;
@@ -101,6 +101,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
             @media only screen and (max-width: 565px) {
                 width: 80vw;
              }     
@@ -120,17 +121,50 @@
                 height: 27%;
              }
 
-             
-
             img{
                 object-fit: cover;
                     width: 95%;  
             }
-            
-        }
 
-        .hover-div{
-            background-color: blue;
+            &:hover {
+                .one-work-img {
+                   
+                }
+
+                .hover-div-pollo-loco{
+                    display: flex;
+                } 
+            }
+
+            .hover-div-pollo-loco{
+                height: 79%;
+                width: 100%;
+                background-color:rgba(255,255,255,.8);
+                z-index: 1;
+                position: absolute;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                //display: none;
+                h2{
+                    color: #FA2759;
+                }
+                a{
+                    text-decoration: none;
+                    border: 1px solid #FA2759;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                    background-color: white;
+                }
+            }
+            
+        } 
+        
+        .one-work-join{
             width: 35%;
             height: 45%;
             border: 1px solid black;
@@ -139,20 +173,230 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-        }
+            position: relative;
+            @media only screen and (max-width: 565px) {
+                width: 80vw;
+             }     
+            
+             @media only screen and (max-width: 450px) {
+                width: 80vw;
+                height: 35%;
+             }
 
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 30%;
+             }
 
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 27%;
+             }
 
-        .one-work-img:hover{
-            background: green;	
-            .hover-div{
-                background-color: green !important;
+            img{
+                object-fit: cover;
+                    width: 95%;  
             }
-        }
+
+            &:hover {
+                .one-work-img {
+                   
+                }
+
+                .hover-div-join{
+                    display: flex;
+                } 
+            }
+
+            .hover-div-join{
+                height: 79%;
+                width: 100%;
+                background-color:rgba(255,255,255,.8);
+                z-index: 1;
+                position: absolute;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                //display: none;
+                h2{
+                    color: #FA2759;
+                }
+                a{
+                    text-decoration: none;
+                    border: 1px solid #FA2759;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                    background-color: white;
+                }
+            }
+            
+        } 
+
+
+        .one-work-ringoffire{
+            width: 35%;
+            height: 45%;
+            border: 1px solid black;
+            margin-left: 8px;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            @media only screen and (max-width: 565px) {
+                width: 80vw;
+             }     
+            
+             @media only screen and (max-width: 450px) {
+                width: 80vw;
+                height: 35%;
+             }
+
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 30%;
+             }
+
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 27%;
+             }
+
+            img{
+                object-fit: cover;
+                    width: 95%;  
+            }
+
+            &:hover {
+                .one-work-img {
+                   
+                }
+
+                .hover-div-ringoffire{
+                    display: flex;
+                } 
+            }
+
+            .hover-div-ringoffire{
+                height: 90%;
+                width: 90%;
+                background-color:rgba(255,255,255,.8);
+                z-index: 1;
+                position: absolute;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                //display: none;
+                h2{
+                    color: #FA2759;
+                }
+                a{
+                    text-decoration: none;
+                    border: 1px solid #FA2759;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                    background-color: white;
+                }
+            }
+            
+        } 
+
+
+        .one-work-portfolio{
+            width: 35%;
+            height: 45%;
+            border: 1px solid black;
+            margin-left: 8px;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            @media only screen and (max-width: 565px) {
+                width: 80vw;
+             }     
+            
+             @media only screen and (max-width: 450px) {
+                width: 80vw;
+                height: 35%;
+             }
+
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 30%;
+             }
+
+             @media only screen and (max-width: 380px) {
+                width: 80vw;
+                height: 27%;
+             }
+
+            img{
+                object-fit: cover;
+                    width: 95%;  
+            }
+
+            &:hover {
+                .one-work-img {
+                   
+                }
+
+                .hover-div-portfolio{
+                    display: flex;
+                } 
+            }
+
+            .hover-div-portfolio{
+                height: 93%;
+                width: 90%;
+                margin-left: -30%;
+                background-color:rgba(255,255,255,.8);
+                z-index: 1;
+                position: absolute;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                //display: none;
+                h2{
+                    color: #FA2759;
+                }
+                a{
+                    text-decoration: none;
+                    border: 1px solid #FA2759;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                    background-color: white;
+                }
+            }
+            
+        } 
+
+
         
     }
 }
+
+
+
+
+
+
+
+
+
+// added classes ngClass
 
 .display-none{
     display: none !important;
@@ -161,7 +405,6 @@
 .background-red {
     background-color: #FA2759 !important;
 }
-
 
 
 
