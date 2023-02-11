@@ -139,6 +139,7 @@
             .hover-div-pollo-loco{
                 
                 background-color:rgba(255,255,255,.8);
+                border-radius: 10px;
                 z-index: 1;
                 position: absolute;
                 top: 50%;
@@ -152,10 +153,14 @@
                 justify-content: center;
                 flex-direction: column;
                 display: none;
+                .hover-link-div-pollo-loco{
+                    display: flex;
+                }
                 h2{
                     color: #FA2759;
                 }
                 a{
+                    color: black;
                     text-decoration: none;
                     border: 1px solid #FA2759;
                     display: flex;
@@ -163,6 +168,8 @@
                     justify-content: center;
                     padding: 20px;
                     background-color: white;
+                    margin-left: 5px;
+                    margin-right: 5px;
                 }
                 @media only screen and (max-width: 1200px) {
                     height: 75%;
@@ -255,6 +262,7 @@
                 height: 79%;
                 width: 100%;
                 background-color:rgba(255,255,255,.8);
+                border-radius: 10px;
                 z-index: 1;
                 position: absolute;
                 top: 50%;
@@ -268,10 +276,14 @@
                 justify-content: center;
                 flex-direction: column;
                 display: none;
+                .hover-link-div-join{
+                    display: flex;
+                }
                 h2{
                     color: #FA2759;
                 }
                 a{
+                    color: black;
                     text-decoration: none;
                     border: 1px solid #FA2759;
                     display: flex;
@@ -279,6 +291,8 @@
                     justify-content: center;
                     padding: 20px;
                     background-color: white;
+                    margin-left: 5px;
+                    margin-right: 5px;
                 }
                 @media only screen and (max-width: 1200px) {
                     height: 75%;
@@ -372,6 +386,7 @@
                 height: 90%;
                 width: 90%;
                 background-color:rgba(255,255,255,.8);
+                border-radius: 10px;
                 z-index: 1;
                 position: absolute;
                 top: 50%;
@@ -385,10 +400,14 @@
                 justify-content: center;
                 flex-direction: column;
                 display: none;
+                .hover-link-div-ringoffire{
+                    display: flex;
+                }
                 h2{
                     color: #FA2759;
                 }
                 a{
+                    color: black;
                     text-decoration: none;
                     border: 1px solid #FA2759;
                     display: flex;
@@ -396,6 +415,8 @@
                     justify-content: center;
                     padding: 20px;
                     background-color: white;
+                    margin-left: 5px;
+                    margin-right: 5px;
                 }
                 @media only screen and (max-width: 1200px) {
                     height: 75%;
@@ -489,6 +510,7 @@
                 height: 99%;
                 width: 93%;
                 background-color:rgba(255,255,255,.8);
+                border-radius: 10px;
                 z-index: 1;
                 position: absolute;
                 top: 50%;
@@ -502,57 +524,66 @@
                 justify-content: center;
                 flex-direction: column;
                 display: none;
-                h2{
-                    color: #FA2759;
-                }
-                a{
-                    text-decoration: none;
-                    border: 1px solid #FA2759;
+                .hover-link-div-portfolio{
                     display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    padding: 20px;
-                    background-color: white;
                 }
-                @media only screen and (max-width: 1200px) {
-                    height: 75%;
+                    
                     h2{
-                        font-size: 15px;
-                    }
-                    p{
-                        font-size: 13px;
+                        color: #FA2759;
                     }
                     a{
-                        padding: 15px;
-                        font-size: 13px;
+                        text-decoration: none;
+                        border: 1px solid #FA2759;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 20px;
+                        background-color: white;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        color: black;
                     }
-                 }
-                 @media only screen and (max-width: 900px) {
-                    height: 60%;
-                    h2{
-                        font-size: 15px;
-                    }
-                    p{
-                        font-size: 10px;
-                    }
-                    a{
-                        padding: 12px;
-                        font-size: 10px;
-                    }
-                 } 
-                 @media only screen and (max-width: 565px) {
-                    height: 75% !important;
-                    h2{
-                        font-size: 15px !important;
-                    }
-                    p{
-                        font-size: 13px;
-                    }
-                    a{
-                        padding: 15px;
-                        font-size: 13px;
-                    }
-                 }   
+                    @media only screen and (max-width: 1200px) {
+                        height: 75%;
+                        h2{
+                            font-size: 15px;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+                        a{
+                            padding: 15px;
+                            font-size: 13px;
+                        }
+                     }
+                     @media only screen and (max-width: 900px) {
+                        height: 60%;
+                        h2{
+                            font-size: 15px;
+                        }
+                        p{
+                            font-size: 10px;
+                        }
+                        a{
+                            padding: 12px;
+                            font-size: 10px;
+                        }
+                     } 
+                     @media only screen and (max-width: 565px) {
+                        height: 75% !important;
+                        h2{
+                            font-size: 15px !important;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+                        a{
+                            padding: 15px;
+                            font-size: 13px;
+                        }
+                     }   
+                
+                
             }
             
         } 
