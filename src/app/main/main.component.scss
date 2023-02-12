@@ -84,24 +84,48 @@
             width: 54vw;
          }
          @media only screen and (max-width: 565px) {
-            padding-left: 11vw;
-            padding-right: 11vw;
+            padding-left: 13vw;
+            padding-right: 13vw;
+            padding-top: 3vh;
+            padding-bottom: 3vh;
+            font-size: 17px;
         }
 
         @media only screen and (max-width: 400px) {
-            padding-left: 10vw;
-            padding-right: 10vw;
+            padding-top: 3vh;
+            padding-bottom: 3vh;
+            font-size: 17px;
         }
 
         @media only screen and (max-width: 360px) {
-            padding-left: 8vw;
-            padding-right: 8vw;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            font-size: 15px;
            
         }
         @media only screen and (max-width: 330px) {
-            padding-left: 6vw;
-            padding-right: 6vw;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            font-size: 15px;
             
+        } 
+
+        @media only screen and (max-width: 300px) {
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            font-size: 15px;
+            
+        } 
+
+        @media only screen and (max-width: 270px) {
+            font-size: 15px;
+        } 
+        @media only screen and (max-width: 255px) {
+            padding-left: 10vw;
+            padding-right: 10vw;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            font-size: 15px;
         } 
     }
 
