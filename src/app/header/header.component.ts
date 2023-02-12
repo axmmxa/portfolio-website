@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   
-  attachClass = false;
+  attachClass = true;
 
   showMobileMenu()  {
     console.log('test')
