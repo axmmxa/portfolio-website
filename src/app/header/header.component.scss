@@ -16,8 +16,13 @@
       }  
 }
 
+
+
 .logo-header {
     margin-left: 10vw;
+    img{
+      width: 200px;
+    }
     @media only screen and (min-width: 1440px) {
         margin-left: 0;
       }

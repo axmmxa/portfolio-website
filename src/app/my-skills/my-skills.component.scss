@@ -33,7 +33,9 @@
     .headline{
         color: white;
         margin-top: 5vh;
-        font-size: 36px;
+        h1{
+            font-size: 40px !important;
+        }
         @media only screen and (min-width: 1440px) {
             font-size: 60px;
           }
