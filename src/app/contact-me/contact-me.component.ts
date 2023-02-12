@@ -40,6 +40,7 @@ export class ContactMeComponent {
     let fd = new FormData();
     fd.append('name', nameField.value)
     fd.append('message', messageField.value)
+    fd.append('email' , emailField.value)
 
     //senden 
     await fetch('https://alexander-much.developerakademie.net/send_mail/send_mail.php',
