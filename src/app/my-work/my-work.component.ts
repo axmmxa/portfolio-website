@@ -10,7 +10,7 @@ export class MyWorkComponent {
   jsScript = false
   angular = false
 
-  allButton = false
+  allButton = true
   angularButton = false
   jsButton = false
 

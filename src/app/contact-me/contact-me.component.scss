@@ -97,7 +97,9 @@
                     border: 1px solid #2EFCD8;
                     font-size: 20px;
                     &:hover {
+                        background-color: #2DFCD8;
                         cursor: pointer;
+                        color: white;
                     }
                 }
             }
