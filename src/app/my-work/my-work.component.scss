@@ -28,7 +28,7 @@
      }
      
      @media only screen and (max-width: 565px) {
-        height: 1700px;
+        height: 1800px;
      } 
 
      @media only screen and (max-width: 450px) {
@@ -69,6 +69,10 @@
             @media only screen and (max-width: 310px){
                 width: 25vw;
                 height: 50px;
+            }
+
+            @media only screen and (max-width: 260px){
+                font-size: 10px;
             }
         }
     }

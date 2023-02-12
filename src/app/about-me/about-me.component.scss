@@ -47,6 +47,10 @@
                 height: 200px !important;
                 border-radius: 100%;
                 background-color: #FA2759;
+                @media only screen and (max-width: 768pxpx) {
+                    width: 150px !important;
+                    height: 150px !important;
+                 } 
                 @media only screen and (max-width: 556px) {
                    margin-left: 0;
                 } 
@@ -58,7 +62,11 @@
                 text-align: center;
                 @media only screen and (max-width: 556px) {
                     margin-right: 0;
-                }  
+                }
+                @media only screen and (max-width: 325px) {
+                    font-size: 15px;
+                }
+                  
 
                 h1{
                     font-size: 40px;
@@ -105,8 +113,13 @@
                 width: 300px;
             }
 
-            @media only screen and (max-width: 310px) {
+            @media only screen and (max-width: 325px) {
+                .headline{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
                 width: 260px;
+                font-size: 15px;
             } 
             .img-div{
                 background-color: #2DFCD8;
@@ -121,6 +134,7 @@
                     width: 20px;
                 }
             }
+            
         }
     }
 }
